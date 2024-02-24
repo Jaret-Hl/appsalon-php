@@ -1,0 +1,23 @@
+{
+    "name": "jaret/app-salon_v1",
+    "description": "Proyecto_1 AppSalon MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaret",
+            "email": "gadir041499@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
